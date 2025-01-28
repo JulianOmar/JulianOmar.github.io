@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Julian Meza</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -28,6 +27,8 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Sección de Diplomas</title>
 
 
 </head>
@@ -66,7 +67,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Blog-1</li>
+            <li class="current">Certificados</li>
           </ol>
         </nav>
       </div>
@@ -77,67 +78,19 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>El Programador Profesional</h2>
-        <p>Una recopilación de buenas practicas que todo programador debería seguir. Algunos consejos que me
-          hubieran gustado saber antes.</p>
+        <h2>Diplomas y certificados </h2>
       </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up">
-        <ol>
-          <li>Estima los tiempos adecuadamente. Estos deben incluir, adem&aacute;s del c&oacute;digo, el tiempo de
-            correcci&oacute;n de errores, revisi&oacute;n del c&oacute;digo, reuniones de progreso y estatus, y <span
-              style="background-color: rgb(247, 218, 100);">DOCUMENTACI&Oacute;N</span>.</li>
-          <li>No reinventes la rueda. Tu problema puede ya tener soluci&oacute;n mediante librer&iacute;as,
-            m&eacute;todos o <span style="background-color: rgb(247, 218, 100);">PATRONES DE DISE&Ntilde;O</span>.</li>
-          <li>Intenta seguir los 20 principios para escribir c&oacute;digo de manera clara, sencilla y precisa:
-            <strong><span style="background-color: rgb(247, 218, 100);">&quot;El Zen de Python&quot;</span></strong>.
-          </li>
-          <li>Sigue el estilo de documentaci&oacute;n en Python: <strong>PEP8</strong>.</li>
-          <li>Aprende <strong><span style="background-color: rgb(247, 218, 100);">INGL&Eacute;S</span></strong>.</li>
-          <li>La <strong>belleza</strong> est&aacute; en la simplicidad.</li>
-          <li>Conoce tu pr&oacute;ximo <strong>commit</strong>.</li>
-          <li>Conoce tus l&iacute;mites. <strong><span
-                style="background-color: rgb(247, 218, 100);">O(f())</span></strong>.</li>
-          <li>Aprende el Lenguaje Espec&iacute;fico del Dominio (DSL), tanto interno como externo.</li>
-          <li>No dejes nada para <span style="background-color: rgb(247, 218, 100);">QA</span>: haz un trabajo
-            profesional completo: c&oacute;digo + documentaci&oacute;n + pruebas.</li>
-          <li>Las pruebas son el rigor ingenieril del desarrollo de software.</li>
-          <li>Encapsula comportamiento, no solo estado.</li>
-          <li>Escribe c&oacute;digo como si tuvieras que mantenerlo por el resto de tu vida.</li>
-          <li>Implementa pruebas con la adecuada cantidad de casos, aplicando <span
-              style="background-color: rgb(247, 218, 100);">M&eacute;todos como cobertura</span>, <span
-              style="background-color: rgb(247, 218, 100);">complejidad ciclomatica de McCabe</span> (que utiliza la
-            teor&iacute;a de grafos de caminos l&oacute;gicos individuales).</li>
-          <li>Aplica est&aacute;ndares de <span style="background-color: rgb(251, 160, 38);">CALIDAD</span>:
-            funcionalidad, fiabilidad, usabilidad, eficiencia, portabilidad y mantenibilidad. <strong><span
-                style="background-color: rgb(247, 218, 100);">ISO 9126</span></strong> (calidad de productos software).
-          </li>
-          <li>Implementa pruebas de caja negra, mediante an&aacute;lisis de valores l&iacute;mites: m&aacute;ximo,
-            m&iacute;nimo, m&aacute;s all&aacute; del l&iacute;mite (+1), y conjetura de errores &rarr; valores
-            inesperados, repetidos, caracteres/s&iacute;mbolos, vac&iacute;o, palabras reservadas, etc.</li>
-          <li>Implementa la gesti&oacute;n de excepciones: duda con toda malicia que recibir&aacute;s siempre
-            par&aacute;metros correctos y limpios. <strong>try-catch</strong>.</li>
-          <li>Sigue el Principio de Responsabilidad &Uacute;nica (SRP): re&uacute;ne los casos que cambian por una misma
-            raz&oacute;n y separa aquellos que cambian por diferentes razones. Tambi&eacute;n aplica el Principio de
-            Inversi&oacute;n de Dependencias (DIP). (&quot;Agile Software Development&quot;).</li>
-          <li>Documenta tu trabajo y f&iacute;rmalo.</li>
-          <li><strong>....</strong>.</li>
-        </ol>
-
-        <div style="height: 200px;"></div>
-
-
-        <p>Aclaración: esto es solo una recopilación de buenas practicas, recomendaciones y algunos estándares en la
-          industria sumado a apuntes personales.</p>
-      </div>
-
-    </section><!-- /Starter Section Section -->
-
-
+    </section><!-- /Starter Section Section ./assets/certificates/diploma-1.jpg-->
+    <div id="diplomasGrid" class="diplomas-grid"></div>
+    <button id="verMas" class="ver-mas">Ver más</button>
 
 
 
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="./assets/js/diplomas.js"></script>
+
+
 
   <footer id="footer" class="footer accent-background">
 
