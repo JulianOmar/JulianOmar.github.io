@@ -84,7 +84,7 @@
 
 @font-face {
   font-family: 'MiFuente';
-  src: url('/fonts/PlaywriteIN-VariableFont_wght.ttf') format('truetype');
+  src: url('/assets/fonts/PlaywriteIN-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
