@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const verMasBtn = document.getElementById("verMas")
     let diplomas = []
     let visibleDiplomas = 0
-    const diplomasPorCarga = 4
+    const diplomasPorCarga = 8 // Número de diplomas a cargar por clic en "Ver más"
   
     // Función para cargar el archivo CSV
     function cargarCSV() {
